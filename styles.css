@@ -1,0 +1,96 @@
+body {
+   background-image: url(Images/6790389-forest-background.jpg);
+       background-repeat: no-repeat;
+      background-size: cover;
+  background-position: center;
+}
+
+#carousel {
+  position: absolute;
+  left: 500px;
+  left: 500px;
+}
+
+h1 {
+    position: relative;
+    left: 240px;
+    top: 600px;
+    color: white;
+    font-size: 50px;
+}
+
+#inputs {
+    position: relative;
+    left: 500px;
+    bottom: 70px;
+    width: 200px;
+    top: 500px;
+}
+
+#first_name, #last_name, #age, #address, #email {
+	height: 20px;
+	width: 300px;
+}
+
+#title {
+  color: darkgreen;
+  font-size: 20px;
+  background: lightblue;
+}
+
+#quote {
+	position: relative;
+    left: 500px;
+    bottom: 85px;
+    top: 482px;
+}
+
+#box {
+  position: relative;
+  width: 1000px;
+  height: 190px;
+  text-align: center;
+  margin: 0 auto 120px;
+  top: 600px;
+  color: white;
+  font-size: 20px;
+  background: black;
+}
+
+.button {
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  font-size: 70px;
+  text-align: center;
+  font: black;
+  color: black;
+}
+
+#submit {
+  position: relative;
+  width: 120px;
+  margin: 480px 0 0 500px;
+}
+
+#nums {
+  position: relative;
+    right: 60px;
+    top: 80px;
+    color: yellow;
+    font-size: 30px
+}
+
+#btn1 {
+  position: relative;
+  left: 570px;
+  margin: 100px 0 30px 0;
+  background: black;
+  float: left;
+  height: 80px;
+  width: 180px;
+}
+
+li {
+  color: white;
+}
