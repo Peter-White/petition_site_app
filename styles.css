@@ -1,7 +1,7 @@
 body {
-   background-image: url(Images/6790389-forest-background.jpg);
-       background-repeat: no-repeat;
-      background-size: cover;
+  background-image: url(Images/6790389-forest-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
@@ -11,19 +11,19 @@ body {
 }
 
 h1 {
-    position: relative;
-    left: 420px;
-    top: 600px;
-    color: white;
-    font-size: 50px;
+  position: relative;
+  left: 420px;
+  top: 600px;
+  color: white;
+  font-size: 50px;
 }
 
 #inputs {
-    position: relative;
-    left: 700px;
-    bottom: 70px;
-    width: 200px;
-    top: 500px;
+  position: relative;
+  left: 700px;
+  bottom: 70px;
+  width: 200px;
+  top: 500px;
 }
 
 #first_name, #last_name, #age, #address, #email {
@@ -39,9 +39,9 @@ h1 {
 
 #quote {
 	position: relative;
-    left: 700px;
-    bottom: 85px;
-    top: 482px;
+  left: 700px;
+  bottom: 85px;
+  top: 482px;
 }
 
 #box {
@@ -63,20 +63,33 @@ h1 {
   top: 460px;
 }
 
-#nums {
-  position: relative;
-    right: 60px;
-    top: 80px;
-    color: yellow;
-    font-size: 30px
-}
-
 #contributions {
   position: relative;
   background: black;
   color: white;
   width: 370px;
-  font-size: 20px;
+  font-size: 30px;
   bottom: 830px;
   right: 10px;
+}
+
+#counter {
+    width: 100px;
+    height: 100px;
+    background: #000000;
+    color: white;
+}
+
+#printquote {
+    width: 100px;
+    height: 100px;
+    background: #000000;
+    color: white;
+}
+
+#description {
+    width: 100px;
+    height: 100px;
+    background: #000000;
+    color: white;
 }
