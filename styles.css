@@ -7,13 +7,12 @@ body {
 
 #carousel {
   position: absolute;
-  left: 500px;
-  left: 500px;
+  left: 700px;
 }
 
 h1 {
     position: relative;
-    left: 240px;
+    left: 420px;
     top: 600px;
     color: white;
     font-size: 50px;
@@ -21,7 +20,7 @@ h1 {
 
 #inputs {
     position: relative;
-    left: 500px;
+    left: 700px;
     bottom: 70px;
     width: 200px;
     top: 500px;
@@ -40,37 +39,28 @@ h1 {
 
 #quote {
 	position: relative;
-    left: 500px;
+    left: 700px;
     bottom: 85px;
     top: 482px;
 }
 
 #box {
   position: relative;
-  width: 1000px;
-  height: 190px;
+  width: 900px;
+  height: 210px;
   text-align: center;
-  margin: 0 auto 120px;
+  margin: 0 0 140px 440px;
   top: 600px;
   color: white;
   font-size: 20px;
   background: black;
 }
 
-.button {
-  width: 120px;
-  height: 120px;
-  border: 1px solid black;
-  font-size: 70px;
-  text-align: center;
-  font: black;
-  color: black;
-}
-
 #submit {
   position: relative;
   width: 120px;
-  margin: 480px 0 0 500px;
+  margin: 20px 0 0 700px;
+  top: 460px;
 }
 
 #nums {
@@ -81,16 +71,12 @@ h1 {
     font-size: 30px
 }
 
-#btn1 {
+#contributions {
   position: relative;
-  left: 570px;
-  margin: 100px 0 30px 0;
   background: black;
-  float: left;
-  height: 80px;
-  width: 180px;
-}
-
-li {
   color: white;
+  width: 370px;
+  font-size: 20px;
+  bottom: 830px;
+  right: 10px;
 }

@@ -3,7 +3,7 @@
 <head>
   <title>Pet Fox Petition</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-<!--
+
   <script type="text/javascript">
     var image1=new Image()
     image1.src="images/insdie, laughing fox.jpg"
@@ -30,15 +30,15 @@
     var image12=new Image()
     image12.src="images/Fox_2_1298643a.jpg"
   </script>
- -->
+
 
 </head>
 <body>
 
-  <!-- <div id="carousel">
+<div id="carousel">
     <img src="" name="slide" width="400" left="110">
-  </div> -->
-  <!-- <script type="text/javascript">
+  </div>
+<script type="text/javascript">
     var pic=1
       function scroll(){
         document.images.slide.src=eval("image"+pic+".src")
@@ -49,7 +49,8 @@
         setTimeout("scroll()",2500)
       }
       scroll()
-  </script> -->
+  </script>
+
   <h1>Massachusetts Pet Fox Legalization Petition</h1>
   <div id="box">
     <p>Domesticated foxes are becoming some of North America's more popular exotic pets. They're playful, they're friendly, they work well with kids and other pets (except maybe hamsters) and they're absolutely adorable. Think of them like a combination between a cat and a dog, independent but loyal. Most states within the midwest and south have fully legalized the ownership of domesticated foxes, however owning a domesticated fox in most northern states is still illegal.
@@ -65,7 +66,7 @@
   <input type="text" value="" id="last_name">
   <br>
   <label for="id" id="title">*Age:</label>
-  <input type="text" value="" id="age">
+  <input type="number" id="age" name="age" min="1" max="500">
   <br>
   <label for="id" id="title">*Address:</label>
   <input type="text" value="" id="address">
@@ -80,14 +81,15 @@
   </form>
   <br>
 
-  <<button id="submit">Submit</button>
+  <button id="submit">Submit</button>
 
-  <label id="nums">Signatures So Far</label>
-  <div id="count-box">
-    <div class="button" id="btn1" onclick="clickBtn('btn1')"/></div>
-  </div>
 
-  <ul id="signers"></ul>
+<div style="height:1300px;overflow:auto;" id="contributions">
+
+ <ul id="signers"></ul>
+
+</div>
+
 
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="app.js" type="text/javascript"></script>
