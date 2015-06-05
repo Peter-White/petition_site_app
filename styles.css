@@ -7,13 +7,13 @@ body {
 
 #carousel {
   position: absolute;
-  left: 700px;
+  left: 690px;
 }
 
 h1 {
   position: relative;
   left: 420px;
-  top: 600px;
+  top: 480px;
   color: white;
   font-size: 50px;
 }
@@ -23,7 +23,7 @@ h1 {
   left: 700px;
   bottom: 70px;
   width: 200px;
-  top: 500px;
+  top: 420px;
 }
 
 #first_name, #last_name, #age, #address, #email {
@@ -41,7 +41,7 @@ h1 {
 	position: relative;
   left: 700px;
   bottom: 85px;
-  top: 482px;
+  top: 402px;
 }
 
 #box {
@@ -50,7 +50,7 @@ h1 {
   height: 210px;
   text-align: center;
   margin: 0 0 140px 440px;
-  top: 600px;
+  top: 490px;
   color: white;
   font-size: 20px;
   background: black;
@@ -60,7 +60,7 @@ h1 {
   position: relative;
   width: 120px;
   margin: 20px 0 0 700px;
-  top: 460px;
+  top: 380px;
 }
 
 #contributions {
@@ -82,6 +82,7 @@ h1 {
     right: 8px;
     bottom: 845px;
     font-size: 30px;
+    text-align: right;
 }
 
 #printquote {
@@ -100,7 +101,7 @@ h1 {
     height: 100px;
     background: green;
     color: white;
-    bottom: 2240px;
+    bottom: 2160px;
     right: 8px;
     font-size: 73px;
 }
