@@ -69,27 +69,38 @@ h1 {
   color: white;
   width: 370px;
   font-size: 30px;
-  bottom: 830px;
+  bottom: 845px;
   right: 10px;
 }
 
 #counter {
-    width: 100px;
-    height: 100px;
-    background: #000000;
+    position: relative;
+    width: 368px;
+    height: 50px;
+    background: red;
     color: white;
+    right: 8px;
+    bottom: 845px;
+    font-size: 30px;
 }
 
 #printquote {
-    width: 100px;
-    height: 100px;
+    position: relative;
+    width: 368px;
+    height: 250px;
     background: #000000;
     color: white;
+    bottom: 845px;
+    right: 8px;
 }
 
 #description {
-    width: 100px;
+    position: relative;
+    width: 368px;
     height: 100px;
-    background: #000000;
+    background: green;
     color: white;
+    bottom: 2240px;
+    right: 8px;
+    font-size: 73px;
 }

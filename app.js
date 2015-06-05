@@ -7,13 +7,15 @@ $(function (){
   var $address = $('#address');
   var $email = $('#email');
   var $quote = $('#quote');
+  var $count = $('#counter');
 
 $.ajax({
   type: 'GET',
   url: 'http://localhost:3000/signers',
   success: function(signers) {
     $.each(signers, function(i, signer) {
-      $signers.append('<li>'+ signer.first_name +' '+ signer.last_name +'</li>');
+      // $signers.append('<li>'+ signer.first_name +' '+ signer.last_name +'</li>');
+      $signers.append('<li><a href="http://localhost:3000/signers/' + signer.id + '">' + signer.first_name + ' ' + signer.last_name + '</a></li>');
   });
 },
   error: function() {
@@ -44,8 +46,19 @@ $('#submit').on('click', function() {
     }
     });
   });
-});
 
-$('#counter').show(function (){
-var $count = $("#contributions ul").length;
+  $('#counter').show(function (){
+
+    $.ajax({
+    type: 'GET',
+    url: 'http://localhost:3000/signers-count',
+    success: function(count) {
+      $count.text(count.count);
+    }
+    });
+  });
+
+// $('#signers li a').on('click', function(e) {
+// e.preventDefault();
+//   });
 });
