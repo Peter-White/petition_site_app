@@ -6,17 +6,18 @@ body {
 }
 
 #carousel {
-  position: relative;
-  left: 690px;
-  bottom: 80px;
+  position: absolute;
+  left: 680px;
+  bottom: 220px;
 }
 
 h1 {
-  position: relative;
+  position: absolute;
   left: 420px;
   color: yellow;
   font-size: 50px;
-  bottom: 95px;
+  bottom: 80px;
+  font-family: 'Roboto Slab', serif;
 }
 
 #first_name, #last_name, #age, #address, #email {
@@ -27,44 +28,46 @@ h1 {
 
 #title {
   position: absolute;
-  color: darkgreen;
+  color: lightgreen;
   width: 110px;
   font-size: 20px;
-  background: lightblue;
+  background: rgba(92, 61, 0, 0.5);
   right: 200px;
+  text-align: right;
 }
 
 #inputs {
   position: absolute;
   left: 750px;
   width: 200px;
-  bottom: -250px;
+  bottom: -320px;
 }
 #quote {
 	position: absolute;
   left: 750.5px;
-  bottom: -426px;
+  bottom: -496px;
   font-size: 15px;
 }
 
 #box {
-  position: relative;
+  position: absolute;
   width: 900px;
-  height: 210px;
+  height: 240px;
   text-align: center;
-  margin: 0 0 140px 440px;
+  margin: 0 0 0 440px;
+  top: 650px;
   color: white;
   font-size: 20px;
-  background: black;
-  bottom: 100px;
+  background: rgba(0,0,0,0.4);
 }
 
 #submit {
   position: absolute;
   width: 120px;
   height: 30px;
-  margin: 90px 0 0 742px;
+  margin: 90px 0 0 743px;
   font-size: 25px;
+  bottom: -550px;
 }
 
 #contributions {
@@ -73,55 +76,63 @@ h1 {
   color: white;
   width: 370px;
   font-size: 30px;
-  top: 60px;
+  top: 75px;
+  font-family: arial;
 }
 
 #counter {
     position: absolute;
     width: 370px;
     height: 50px;
-    background: red;
     color: white;
     bottom: -260px;
     font-size: 30px;
     text-align: right;
+    background: rgb(64,64,64);
 }
 
 #printquote {
-    position: relative;
+    position: absolute;
     width: 370px;
-    height: 150px;
+    height: 180px;
     background: #000000;
     color: white;
-    background: blue;
+    background: black;
     font-size: 20px;
+    bottom: -600px;
 }
 
 #description {
-    position: relative;
+    position: absolute;
     width: 370px;
     height: 100px;
-    background: green;
-    color: white;
     font-size: 50px;
     bottom: 10px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: lightgreen;
+    top: 10px;
+    left: 10px;
 }
 
 #sidebar {
-    position: absolute;
+    position: relative;
     width: 390px;
-    height: 1232px;
-    background: green;
-    top: 0px;
-    left: 0.1px;
+    height: 1400px;
+    background-image: url(Images/tree_bark___texture__pattern_by_ivangraphics-d3g4qzx.jpg);
+    background-size: cover;
+    background-position: center;
+    left: -8px;
+
 }
 
 #quotedesc {
   position: absolute;
     width: 380px;
     height: 40px;
-    background: green;
-    color: white;
     font-size: 40px;
-    bottom: -320px;
+    font-weight: bold;
+    bottom: -360px;
+    font-family: 'Indie Flower', cursive;
+    color: lightgreen;
 }
