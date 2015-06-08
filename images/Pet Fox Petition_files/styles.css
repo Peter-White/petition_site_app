@@ -1,15 +1,14 @@
 body {
   background-image: url(Images/6790389-forest-background.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  background-position: top;
-  background-size: 2000px;
 }
 
 #carousel {
   position: relative;
   left: 680px;
-  bottom: 1450px;
+  bottom: 1380px;
 }
 
 h1 {
@@ -17,7 +16,7 @@ h1 {
   left: 455px;
   color: yellow;
   font-size: 50px;
-  bottom: 1360px;
+  bottom: 1300px;
   font-family: 'Tinos', serif;
   font-weight: 400;
 }
@@ -42,13 +41,13 @@ h1 {
   position: relative;
   left: 750px;
   width: 200px;
-  bottom: 1350px;
+  bottom: 1150px;
 }
 
 #quote {
 	position: relative;
   left: 750.3px;
-  bottom: 1368px;
+  bottom: 1168px;
   font-size: 15px;
 }
 
@@ -61,7 +60,7 @@ h1 {
   color: white;
   font-size: 20px;
   background: rgba(0,0,0,0.4);
-  bottom: 1380px;
+  bottom: 1300px;
 }
 
 #submit {
@@ -70,7 +69,7 @@ h1 {
   height: 30px;
   margin: 90px 0 0 743px;
   font-size: 25px;
-  bottom: 1450px;
+  bottom: 1250px;
   border: 2px solid;
   border-radius: 25px;
   line-height: 50%;
@@ -92,7 +91,7 @@ h1 {
     width: 370px;
     height: 50px;
     color: white;
-    bottom: 1919px;
+    bottom: 1821px;
     font-size: 30px;
     text-align: right;
     background: rgb(64,64,64);
@@ -106,7 +105,7 @@ h1 {
     color: white;
     background: black;
     font-size: 20px;
-    bottom: 1750px;
+    bottom: 1650px;
 }
 
 #description {
@@ -118,13 +117,13 @@ h1 {
     font-weight: bold;
     color: lightgreen;
     left: 10px;
-    bottom: 1500px;
+    bottom: 1400px;
 }
 
 #sidebar {
     position: relative;
     width: 390px;
-    height: 1498px;
+    height: 1400px;
     background-image: url(Images/tree_bark___texture__pattern_by_ivangraphics-d3g4qzx.jpg);
     background-size: cover;
     background-position: center;
@@ -138,7 +137,7 @@ h1 {
     height: 40px;
     font-size: 40px;
     font-weight: bold;
-    bottom: 2000px;
+    bottom: 1900px;
     font-family: 'Indie Flower', cursive;
     color: lightgreen;
 }
