@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: inherit;
 }
 
 #carousel {
@@ -17,7 +18,8 @@ h1 {
   color: yellow;
   font-size: 50px;
   bottom: 80px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Tinos', serif;
+  font-weight: 400;
 }
 
 #first_name, #last_name, #age, #address, #email {
@@ -44,7 +46,7 @@ h1 {
 }
 #quote {
 	position: absolute;
-  left: 750.5px;
+  left: 750.3px;
   bottom: -496px;
   font-size: 15px;
 }
@@ -68,6 +70,9 @@ h1 {
   margin: 90px 0 0 743px;
   font-size: 25px;
   bottom: -550px;
+  border: 2px solid;
+  border-radius: 25px;
+  line-height: 50%;
 }
 
 #contributions {
