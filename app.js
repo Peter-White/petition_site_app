@@ -58,7 +58,7 @@ $('#submit').on('click', function() {
       getCount();
     },
     error: function() {
-      alert('I\'m sorry but your submission information is invalid');
+    alert('I\'m sorry but your submission information is invalid');
     }
     });
   });
