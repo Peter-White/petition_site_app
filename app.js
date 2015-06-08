@@ -64,7 +64,7 @@ $('#submit').on('click', function() {
   });
 
 var getCount = function(){
-      $.ajax({
+    $.ajax({
     type: 'GET',
     url: 'http://localhost:3000/signers-count',
     success: function(count) {
