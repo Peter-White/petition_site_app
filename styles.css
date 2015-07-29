@@ -1,31 +1,28 @@
 body {
-  background-image: url(Images/6790389-forest-background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position: top;
-  background-size: 2000px;
+  background-color: green;
+  background-size: 1000px;
 }
 
 #carousel {
-  position: relative;
-  left: 680px;
-  bottom: 1450px;
+  position: absolute;
+  left: 670px;
+  bottom: 130px;
 }
 
 h1 {
-  position: relative;
+  position: absolute;
   left: 455px;
   color: yellow;
   font-size: 50px;
-  bottom: 1360px;
+  bottom: 600px;
   font-family: 'Tinos', serif;
   font-weight: 400;
 }
 
 #first_name, #last_name, #age, #address, #email {
-	height: 20px;
-	width: 300px;
-  font-size: 16px;
+	height: 25px;
+	width: 390px;
+  font-size: 24px;
 }
 
 #title {
@@ -39,21 +36,21 @@ h1 {
 }
 
 #inputs {
-  position: relative;
-  left: 750px;
+  position: absolute;
+  left: 770px;
   width: 200px;
-  bottom: 1350px;
+  top: 1000px;
 }
 
 #quote {
-	position: relative;
-  left: 750.3px;
-  bottom: 1368px;
+	position: absolute;
+  left: 770px;
+  top: 1130px;
   font-size: 15px;
 }
 
 #box {
-  position: relative;
+  position: absolute;
   width: 900px;
   height: 240px;
   text-align: center;
@@ -61,84 +58,94 @@ h1 {
   color: white;
   font-size: 20px;
   background: rgba(0,0,0,0.4);
-  bottom: 1380px;
+  top: 680px;
 }
 
 #submit {
-  position: relative;
+  position: absolute;
   width: 120px;
   height: 30px;
   margin: 90px 0 0 743px;
   font-size: 25px;
-  bottom: 1450px;
+  top: 1250px;
   border: 2px solid;
   border-radius: 25px;
   line-height: 50%;
-  left: 8px;
-}
-
-#contributions {
-  position: absolute;
-  background: black;
-  color: white;
-  width: 370px;
-  font-size: 30px;
-  top: 75px;
-  font-family: arial;
+  left: 25px;
 }
 
 #counter {
-    position: relative;
+    position: absolute;
     width: 370px;
     height: 50px;
     color: white;
-    bottom: 1919px;
+    top: 1300px;
     font-size: 30px;
     text-align: right;
     background: rgb(64,64,64);
+    left: 16px;
 }
 
-#printquote {
-    position: relative;
+#sidebar #printquote {
+    position: absolute;
     width: 370px;
     height: 180px;
     background: #000000;
     color: white;
     background: black;
     font-size: 20px;
-    bottom: 1750px;
+    top: 1460px;
+    left: 16px;
 }
 
-#description {
-    position: relative;
+#sidebar h1 {
+    position: absolute;
     width: 370px;
     height: 100px;
     font-size: 50px;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     color: lightgreen;
-    left: 10px;
-    bottom: 1500px;
+    left: 25px;
+    bottom: 1530px;
 }
 
 #sidebar {
-    position: relative;
-    width: 390px;
-    height: 1498px;
+    position: absolute;
+    width: 395px;
+    height: 1700px;
     background-image: url(Images/tree_bark___texture__pattern_by_ivangraphics-d3g4qzx.jpg);
     background-size: cover;
     background-position: center;
     left: -8px;
-    bottom: 7px;
+    top: -8px;
 }
 
-#quotedesc {
-  position: relative;
+#sidebar #contributions {
+  position: absolute;
+  background: black;
+  color: white;
+  width: 370px;
+  font-size: 20px;
+  top: 100px;
+  font-family: arial;
+  left: 16px;
+}
+
+#sidebar h2 {
+  position: absolute;
     width: 380px;
     height: 40px;
     font-size: 40px;
     font-weight: bold;
-    bottom: 2000px;
     font-family: 'Indie Flower', cursive;
     color: lightgreen;
+    bottom: 240px;
+    left: 18px;
+}
+
+@media (max-width: 992px) {
+  .item-container {
+    height: 100%;
+  }
 }
