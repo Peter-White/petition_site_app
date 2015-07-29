@@ -1,10 +1,14 @@
 body {
-  background-color: green;
   background-size: 1000px;
+  background-image: url(images/6790389-forest-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  background-size: 2255px;
 }
 
 #box #carousel {
-
+  margin-bottom: 40px;
 }
 
 #box {
