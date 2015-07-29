@@ -3,18 +3,20 @@ body {
   background-size: 1000px;
 }
 
-#carousel {
-  position: absolute;
-  left: 670px;
-  bottom: 130px;
+#box #carousel {
+
 }
 
-h1 {
+#box {
   position: absolute;
-  left: 455px;
+  left: 460px;
+  top: 40px;
+  text-align: center;
+}
+
+#box h1 {
   color: yellow;
   font-size: 50px;
-  bottom: 600px;
   font-family: 'Tinos', serif;
   font-weight: 400;
 }
@@ -28,11 +30,12 @@ h1 {
 #title {
   position: absolute;
   color: lightgreen;
-  width: 110px;
+  width: 150px;
   font-size: 20px;
   background: rgba(92, 61, 0, 0.5);
   right: 200px;
   text-align: right;
+  font-size: 25px;
 }
 
 #inputs {
@@ -42,36 +45,30 @@ h1 {
   top: 1000px;
 }
 
-#quote {
-	position: absolute;
-  left: 770px;
-  top: 1130px;
+#inputs textarea {
+  position: absolute;
   font-size: 15px;
+  top: 155px;
 }
 
-#box {
-  position: absolute;
+#box p {
   width: 900px;
   height: 240px;
   text-align: center;
-  margin: 0 0 0 440px;
   color: white;
   font-size: 20px;
   background: rgba(0,0,0,0.4);
-  top: 680px;
 }
 
-#submit {
+#inputs #submit {
   position: absolute;
   width: 120px;
   height: 30px;
-  margin: 90px 0 0 743px;
   font-size: 25px;
-  top: 1250px;
   border: 2px solid;
   border-radius: 25px;
   line-height: 50%;
-  left: 25px;
+  top: 350px;
 }
 
 #counter {
