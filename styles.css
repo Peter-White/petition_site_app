@@ -20,6 +20,7 @@ body {
 
 #box h1 {
   color: yellow;
+  background: rgba(92, 61, 0, 0.5);
   font-size: 50px;
   font-family: 'Tinos', serif;
   font-weight: 400;
@@ -115,7 +116,7 @@ body {
     position: absolute;
     width: 395px;
     height: 1700px;
-    background-image: url(Images/tree_bark___texture__pattern_by_ivangraphics-d3g4qzx.jpg);
+    background-image: url(images/tree_bark___texture__pattern_by_ivangraphics-d3g4qzx.jpg);
     background-size: cover;
     background-position: center;
     left: -8px;

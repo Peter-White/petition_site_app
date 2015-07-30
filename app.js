@@ -49,7 +49,7 @@ $('#submit').on('click', function() {
 
   $.ajax({
     type: 'POST',
-    url: 'https://pacific-tundra-1729.herokuapp.com/signers/' + id,
+    url: 'https://pacific-tundra-1729.herokuapp.com/signers/',
     data: signer,
     success: function(newSigner) {
       $signers.append('<li data-id="' + newSigner.id + '">' + newSigner.first_name +' '+ newSigner.last_name +'</li>');
