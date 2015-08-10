@@ -7,7 +7,7 @@ $(function (){
   var $address = $('#address');
   var $email = $('#email');
   var $quote = $('#quote');
-  var $count = $('#counter');
+  var $count = $('#footer');
   var $print_quote = $('#printquote');
 
 var reset = function() {
@@ -28,7 +28,6 @@ $.ajax({
   url: 'https://pacific-tundra-1729.herokuapp.com/signers/',
   success: function(signers) {
     $.each(signers, function(i, signer) {
-      // $signers.append('<li>'+ signer.first_name +' '+ signer.last_name +'</li>');
       $signers.append('<h2 data-id="' + signer.id + '">' + signer.first_name + ' ' + signer.last_name + '</h2>');
       $signers.append('<p data-id="' + signer.id + '">' + signer.quote + '</p>');
   });
@@ -70,21 +69,11 @@ var getCount = function(){
     type: 'GET',
     url: 'https://pacific-tundra-1729.herokuapp.com/signers-count',
     success: function(count) {
-      $count.text(count.count);
+      $count.text(count.count + " Contributers");
      }
     });
 }
-$('#counter').show(function (){
+$('#footer').show(function () {
   getCount();
 });
-
-  $("#signers").on('click', 'li', function(event){
-    var id = $(this).data('id');
-    $.ajax({
-      url: 'https://pacific-tundra-1729.herokuapp.com/signers/' + id,
-      type: 'GET',
-    }).done(function(response){
-      $("#printquote").text(response.quote)
-    });
-  });
 });

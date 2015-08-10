@@ -4,6 +4,10 @@
   background-color: green;
 }
 
+.footer {
+  font-size: 400%;
+}
+
 .header h1 {
   color: yellow;
   font-size: 50px;
@@ -43,6 +47,19 @@ p {
   border-radius: 25px;
   line-height: 50%;
   top: 350px;
+}
+
+#signers h2 {
+  background-color: grey;
+}
+
+#signers {
+  background-color: black;
+  padding-bottom: 0.5%;
+}
+
+#signers p {
+  color: white;
 }
 
 @media (max-width: 992px) {
