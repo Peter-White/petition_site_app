@@ -4,111 +4,47 @@
   <title>Pet Fox Petition</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 
-  <!-- Images -->
-  <script type="text/javascript">
-    var image1=new Image()
-    image1.src="images/insdie, laughing fox.jpg"
-    var image2=new Image()
-    image2.src="images/maxresdefault.jpg"
-    var image3=new Image()
-    image3.src="images/zaGDQ.jpg"
-    var image4=new Image()
-    image4.src="images/Ncfxpfk.jpg"
-    var image5=new Image()
-    image5.src="images/mj3d24t.jpg"
-    var image6=new Image()
-    image6.src="images/pet_fox_is_just_one_of_the_family_640_03.jpg"
-    var image7=new Image()
-    image7.src="images/tumblr_kupysobbmh1qayf1co1_400.jpg"
-    var image8=new Image()
-    image8.src="images/tame-foxes.png"
-    var image9=new Image()
-    image9.src="images/9fadab8f3700c7fa2ce015373adffad8.jpg"
-    var image10=new Image()
-    image10.src="images/Fox_I.jpg"
-    var image11=new Image()
-    image11.src="images/unusual_pet_breeder_fox_bobcat_wolf18.jpg"
-    var image12=new Image()
-    image12.src="images/Fox_2_1298643a.jpg"
-    var image13=new Image()
-    image13.src="images/5R8GQ6G.jpg"
-    var image14=new Image()
-    image14.src="images/baby-fox-imgur-1385647626nk4g8.jpg"
-    var image15=new Image()
-    image15.src="images/Fox-1.jpg"
-    var image16=new Image()
-    image16.src="images/PrettySmile.jpg"
-    var image17=new Image()
-    image17.src="images/tumblr_myn1jwoaVX1sgcoi2o3_1280.jpg"
-    var image18=new Image()
-    image18.src="images/xqaxzq.jpg"
-    var image19=new Image()
-    image19.src="images/Older_baby_fox_1_by_Anna_aurion.jpg"
-    var image20=new Image()
-    image20.src="images/freddytop.jpg"
-  </script>
-
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-
-<div id="sidebar">
-<h1>Contributers:</h1>
-<div style="height:1200px;overflow:auto;" id="contributions">
- <ul id="signers"></ul>
-</div>
-<div id="counter"></div>
-<h2>What you have to say:</h2>
-<div style="overflow:auto;" id="printquote"></div>
-</div>
-
-  <div id="box">
+<header id="header" class="header">
   <h1>Massachusetts Pet Fox Legalization Petition</h1>
-  <div id="carousel">
-    <img src="" name="slide" height="450" width="450">
-  </div>
-  <script type="text/javascript">
-    var pic=1
-      function scroll(){
-        document.images.slide.src=eval("image"+pic+".src")
-      if(pic<20)
-        pic++
-      else
-        pic=1
-        setTimeout("scroll()",2500)
-      }
-      scroll()
-  </script>
+</header><!-- /header -->
     <p>Domesticated foxes are becoming some of North America's more popular exotic pets. They're playful, they're friendly, they work well with kids and other pets (except maybe hamsters) and they're absolutely adorable. Think of them like a combination between a cat and a dog, independent but loyal. Most states within the midwest and south have fully legalized the ownership of domesticated foxes, however owning a domesticated fox in most northern states is still illegal.
 
     The purposed of this petition is to get ball rolling on legalizing foxes as pets within the northeastern part of this country starting with it's most influential state Massachusetts. If you believe in this cause or you really want an adordible pet that will grant you a lot of unearned attention then sign your name first and last, your age, your address, your email (you must have your own email) and an optional statement if you have something important to say on the matter.</p>
   </div>
 
 <div id="inputs">
-  <label for="id" id="title">*First Name:</label>
+  <h2>First Name</h2>
   <input type="text" value="" id="first_name">
   <br>
-  <label for="id" id="title">*Last Name:</label>
+  <h2>Last Name</h2>
   <input type="text" value="" id="last_name">
   <br>
-  <label for="id" id="title">*Age:</label>
+  <h2>Age</h2>
   <input type="number" id="age" name="age" min="1" max="500">
   <br>
-  <label for="id" id="title">*Address:</label>
+  <h2>Address</h2>
   <input type="text" value="" id="address">
   <br>
-  <label for="id" id="title">*Email:</label>
+  <h2>Email</h2>
   <input type="text" value="" id="email">
   <br>
-  <label for="id" id="title">Quote:</label>
-  <br>
+  <h2>Quote (optional)</h2>
   <textarea id="quote" cols="47" rows="10"></textarea>
   </form>
   <br>
   <button id="submit">Submit</button>
 </div>
+
+<div id="signers">
+</div>
+
+<footer class="footer">
+</footer>
 
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="app.js" type="text/javascript"></script>
