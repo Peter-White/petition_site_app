@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  background-color: lightblue;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
 .header, .footer {
   position: relative;
   text-align: center;
@@ -23,34 +34,35 @@
   font-size: 24px;
 }
 
-#inputs {
+#main #inputs {
   margin-top: 5%;
   margin-left: 35%;
 }
 
-#inputs textarea {
+#main #inputs textarea {
   width: 43%;
-  font-size: 120%;
+  font-size: 110%;
 }
 
-p {
+#main p {
   margin-left: 10%;
   margin-right: 10%;
   font-size: 150%;
 }
 
-#inputs #submit {
-  width: 120px;
-  height: 30px;
-  font-size: 25px;
-  border: 2px solid;
+#main #inputs #submit {
+  width: 15%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 150%;
   border-radius: 25px;
   line-height: 50%;
-  top: 350px;
+  margin-top: 2%;
 }
 
 #signers h2 {
   background-color: grey;
+  padding-left: 1%;
 }
 
 #signers {
@@ -60,6 +72,8 @@ p {
 
 #signers p {
   color: white;
+  font-size: 120%;
+  padding-left: 1%;
 }
 
 @media (max-width: 992px) {
