@@ -28,7 +28,7 @@ body {
   padding-bottom: 3%;
 }
 
-#first_name, #last_name, #age, #address, #email {
+#first_name, #last_name, #age, #address, #email, #city, #street, #zip {
 	height: 25px;
 	width: 390px;
   font-size: 24px;
