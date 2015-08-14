@@ -27,7 +27,7 @@ var reset = function() {
 
 $.ajax({
   type: 'GET',
-  url: 'https://pacific-tundra-1729.herokuapp.com/signers/',
+  url: 'http://localhost:3000/signers/',
   success: function(signers) {
     $.each(signers, function(i, signer) {
       $signers.append('<h2 data-id="' + signer.id + '">' + signer.first_name + ' ' + signer.last_name + '</h2>');
@@ -36,7 +36,7 @@ $.ajax({
 },
   error: function() {
     alert('error loading signers');
-  }
+  },
 });
 
 $('#submit').on('click', function() {
@@ -44,7 +44,6 @@ $('#submit').on('click', function() {
     first_name: $first_name.val(),
     last_name: $last_name.val(),
     age: $age.val(),
-    address: $address.val(),
     street: $street.val(),
     city: $city.val(),
     zip: $zip.val(),
@@ -54,7 +53,7 @@ $('#submit').on('click', function() {
 
   $.ajax({
     type: 'POST',
-    url: 'https://pacific-tundra-1729.herokuapp.com/signers/',
+    url: 'http://localhost:3000/signers/',
     data: signer,
     success: function(newSigner) {
       $signers.append('<h2 data-id="' + signer.id + '">' + signer.first_name + ' ' + signer.last_name + '</h2>');
@@ -72,7 +71,7 @@ $('#submit').on('click', function() {
 var getCount = function(){
     $.ajax({
     type: 'GET',
-    url: 'https://pacific-tundra-1729.herokuapp.com/signers-count',
+    url: 'http://localhost:3000/signers-count',
     success: function(count) {
       $count.text(count.count + " Contributers");
      }
