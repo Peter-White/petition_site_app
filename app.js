@@ -56,8 +56,8 @@ $('#submit').on('click', function() {
     url: 'http://localhost:3000/signers/',
     data: signer,
     success: function(newSigner) {
-      $signers.append('<h2 data-id="' + signer.id + '">' + signer.first_name + ' ' + signer.last_name + '</h2>');
-      $signers.append('<p data-id="' + signer.id + '">' + signer.quote + '</p>');
+      $signers.append('<h2 data-id="' + newSigner.id + '">' + newSigner.first_name + ' ' + newSigner.last_name + '</h2>');
+      $signers.append('<p data-id="' + newSigner.id + '">' + newSigner.quote + '</p>');
       alert('Thank you for caring');
       reset();
       getCount();
