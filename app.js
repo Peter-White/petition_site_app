@@ -4,22 +4,24 @@ $(function (){
   var $first_name = $('#first_name');
   var $last_name = $('#last_name');
   var $age = $('#age');
-  var $address = $('#address');
+  var $street = $('#street');
+  var $city = $('#city');
+  var $zip = $('#zip');
   var $email = $('#email');
   var $quote = $('#quote');
   var $count = $('#footer');
-  var $print_quote = $('#printquote');
 
 var reset = function() {
   $('#signers').val('');
   $('#first_name').val('');
   $('#last_name').val('');
   $('#age').val('');
-  $('#address').val('');
+  $('#street').val('');
+  $('#city').val('');
+  $('#zip').val('');
   $('#email').val('');
   $('#quote').val('');
   $('#counter').val('');
-  $('#printquote').val('');
 };
 
 
@@ -43,6 +45,9 @@ $('#submit').on('click', function() {
     last_name: $last_name.val(),
     age: $age.val(),
     address: $address.val(),
+    street: $street.val(),
+    city: $city.val(),
+    zip: $zip.val(),
     email: $email.val(),
     quote: $quote.val(),
   }};
