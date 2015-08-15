@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html data-ng-app>
 <head>
   <title>Pet Fox Petition</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-
+  <script type="text/javascript" src='bower_components/angular/angular.js'></script>
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-
 </head>
 <body>
 <header id="header" class="header">
@@ -47,8 +46,9 @@
 </div>
 </div>
 
-<div id="signers">
+<div id="signers" data-ng-hide="isHidden">
 </div>
+Hide: <input type='checkbox' data-ng-model="isHidden"/><br/>
 
 <footer class="footer" id="footer">
 </footer>
