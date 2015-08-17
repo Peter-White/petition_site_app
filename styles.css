@@ -63,6 +63,8 @@ body {
 #signers h2 {
   background-color: grey;
   padding-left: 1%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
 }
 
 #signers {
@@ -74,6 +76,31 @@ body {
   color: white;
   font-size: 120%;
   padding-left: 1%;
+}
+
+#newsign h2 {
+  background-color: grey;
+  padding-left: 1%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+}
+
+#newsign {
+  background-color: black;
+}
+
+#newsign p {
+  color: white;
+  font-size: 120%;
+  padding-left: 1%;
+  padding-bottom: 0.5%;
+}
+
+#show {
+  background-color: red;
+  text-align: center;
+  padding-top: 0.010%;
+  padding-bottom: 0.010%;
 }
 
 @media (max-width: 992px) {

@@ -1,6 +1,7 @@
 $(function (){
 
   var $signers = $('#signers');
+  var $newsign = $('#newsign');
   var $first_name = $('#first_name');
   var $last_name = $('#last_name');
   var $age = $('#age');
@@ -58,6 +59,8 @@ $('#submit').on('click', function() {
     success: function(newSigner) {
       $signers.append('<h2 data-id="' + newSigner.id + '">' + newSigner.first_name + ' ' + newSigner.last_name + '</h2>');
       $signers.append('<p data-id="' + newSigner.id + '">' + newSigner.quote + '</p>');
+      $newsign.append('<h2 data-id="' + newSigner.id + '">' + newSigner.first_name + ' ' + newSigner.last_name + '</h2>');
+      $newsign.append('<p data-id="' + newSigner.id + '">' + newSigner.quote + '</p>');
       alert('Thank you for caring');
       reset();
       getCount();
