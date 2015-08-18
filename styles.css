@@ -1,11 +1,13 @@
 body {
 margin: 0px;
 padding: 0px;
+background-color: black;
 }
 
 header {
   height: 0%;
   padding-top: 0.01%;
+  background-image: url('images/seamless_leaf_pattern_03.jpg');
 }
 
 #main {
@@ -24,7 +26,6 @@ header, footer {
 }
 
 .header h1 {
-  color: yellow;
   font-size: 50px;
   font-family: 'Tinos', serif;
   font-weight: 400;
