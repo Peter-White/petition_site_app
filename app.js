@@ -28,7 +28,7 @@ var reset = function() {
 
 $.ajax({
   type: 'GET',
-  url: 'http://localhost:3000/signers/',
+  url: 'https://petition-api.herokuapp.com/signers/',
   success: function(signers) {
     $.each(signers, function(i, signer) {
       $signers.append('<h2 data-id="' + signer.id + '">' + signer.first_name + ' ' + signer.last_name + '</h2>');
@@ -54,7 +54,7 @@ $('#submit').on('click', function() {
 
   $.ajax({
     type: 'POST',
-    url: 'http://localhost:3000/signers/',
+    url: 'https://petition-api.herokuapp.com/signers/',
     data: signer,
     success: function(newSigner) {
       $signers.append('<h2 data-id="' + newSigner.id + '">' + newSigner.first_name + ' ' + newSigner.last_name + '</h2>');
@@ -74,7 +74,7 @@ $('#submit').on('click', function() {
 var getCount = function(){
     $.ajax({
     type: 'GET',
-    url: 'http://localhost:3000/signers-count',
+    url: 'https://petition-api.herokuapp.com/signers-count',
     success: function(count) {
       $count.text(count.count + " Contributers");
      }

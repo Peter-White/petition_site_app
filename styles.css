@@ -34,9 +34,9 @@ header, footer {
 }
 
 #first_name, #last_name, #age, #address, #email, #city, #street, #zip {
-	height: 25px;
-	width: 390px;
-  font-size: 24px;
+	height: 45%;
+	width: 45%;
+  font-size: 150%;
 }
 
 #main #inputs {
@@ -45,8 +45,9 @@ header, footer {
 }
 
 #main #inputs textarea {
-  width: 43%;
   font-size: 110%;
+  width: 45%;
+  height: 200px;
 }
 
 #main p {
