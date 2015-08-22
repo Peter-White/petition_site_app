@@ -107,6 +107,7 @@ header, footer {
   text-align: center;
   padding-top: 0.010%;
   padding-bottom: 0.010%;
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {
