@@ -43,6 +43,7 @@ header, footer {
 #main #inputs {
   margin-top: 5%;
   margin-left: 35%;
+  font-family: 'Droid Serif', serif;
 }
 
 #main #inputs textarea {
@@ -52,9 +53,14 @@ header, footer {
 }
 
 #main p {
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: -3%;
   font-size: 150%;
+  font-family: 'Droid Serif', serif;
+  background-color: yellow;
 }
 
 #main #inputs #submit {
@@ -65,6 +71,7 @@ header, footer {
   border-radius: 25px;
   line-height: 50%;
   margin-top: 2%;
+  font-family: 'Droid Serif', serif;
 }
 
 #signers h2 {
