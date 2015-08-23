@@ -10,6 +10,20 @@ header {
   background-image: url('images/seamless_leaf_pattern_03.jpg');
 }
 
+.container {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.container #myCarousel {
+  background-size: contain;
+  width: 430px;
+  height: 430px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
 #main {
   background-color: lightblue;
   padding-bottom: 3%;
@@ -34,9 +48,12 @@ header, footer {
   font-family: 'Dancing Script', cursive;
 }
 
-#first_name, #last_name, #age, #address, #email, #city, #street, #zip {
-	height: 45%;
-	width: 45%;
+#first_name, #last_name, #address, #email, #city, #street, #zip {
+  width: 350px;
+  font-size: 150%;
+}
+
+#age {
   font-size: 150%;
 }
 
@@ -48,8 +65,8 @@ header, footer {
 
 #main #inputs textarea {
   font-size: 110%;
-  width: 45%;
-  height: 200px;
+  width: 350px;
+  height: 150px;
 }
 
 #main p {
