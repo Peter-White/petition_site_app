@@ -17,11 +17,17 @@ header {
 
 .container #myCarousel {
   background-size: contain;
-  width: 430px;
-  height: 430px;
+  width: 800px;
+  height: 600px;
+  background-color: black;
+}
+
+.container #myCarousel div{
+  background-size: contain;
+  background-color: black;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: black;
+  height: 100%;
 }
 
 #main {
