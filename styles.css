@@ -26,11 +26,12 @@ header, footer {
 }
 
 .header h1 {
-  font-size: 50px;
+  font-size: 80px;
   font-family: 'Tinos', serif;
   font-weight: 400;
   padding-top: 3%;
   padding-bottom: 3%;
+  font-family: 'Dancing Script', cursive;
 }
 
 #first_name, #last_name, #age, #address, #email, #city, #street, #zip {
