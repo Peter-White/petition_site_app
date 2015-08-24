@@ -113,8 +113,8 @@ header, footer {
   padding-bottom: 0.5%;
 }
 
-.container img {
-  height: 50px;
+#imagetable img {
+  height: 155px;
 }
 
 #show {
