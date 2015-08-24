@@ -10,26 +10,6 @@ header {
   background-image: url('images/seamless_leaf_pattern_03.jpg');
 }
 
-.container {
-  margin-top: 20%;
-  margin-bottom: 20%;
-}
-
-.container #myCarousel {
-  background-size: contain;
-  width: 800px;
-  height: 600px;
-  background-color: black;
-}
-
-.container #myCarousel div{
-  background-size: contain;
-  background-color: black;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-}
-
 #main {
   background-color: lightblue;
   padding-bottom: 3%;
@@ -131,6 +111,10 @@ header, footer {
   font-size: 120%;
   padding-left: 1%;
   padding-bottom: 0.5%;
+}
+
+.container img {
+  height: 50px;
 }
 
 #show {
